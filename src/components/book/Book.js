@@ -13,6 +13,7 @@ function Book({
           <Author key={author.author_id} author={author} />
         ))}
       </address>
+      {}
       {showDetail && (
         <>
           <p>Rating: {rating}</p>
